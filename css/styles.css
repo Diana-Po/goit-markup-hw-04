@@ -489,6 +489,9 @@ margin-bottom: 16px;
 .footer-icon-list:focus {
   background-color: #31d0aa;
 }
-.footer-icon {
-  fill: #f4f4fd;
+.soc-link {
+position: relative;
+display: flex;
+  align-items: center;
+  justify-content: center;
 }
