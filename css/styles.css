@@ -500,7 +500,7 @@ letter-spacing: 0.02em;
 color: #fff;
 margin-bottom: 16px;
 }
-.social-media {
+.team-social-media {
   display: flex;
   gap: 24px; /* Відступи між елементами, was gap: 16px;*/
   list-style: none;
@@ -528,6 +528,13 @@ margin-bottom: 16px;
 .footer-icon-list:hover,
 .footer-icon-list:focus {
   background-color: #31d0aa;
+}
+.footer-social-media {
+  display: flex;
+  gap: 16px; /* Відступи між елементами, was gap: 16px;*/
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 .footer-soc-link {
 position: relative;
