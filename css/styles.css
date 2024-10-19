@@ -502,7 +502,7 @@ margin-bottom: 16px;
 }
 .social-media {
   display: flex;
-  gap: 16px; /* Відступи між елементами */
+  gap: 24px; /* Відступи між елементами, was gap: 16px;*/
   list-style: none;
   padding: 0;
   margin: 0;
