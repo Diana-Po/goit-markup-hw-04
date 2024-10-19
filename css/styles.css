@@ -341,6 +341,22 @@ background: #fff; /* added box shadow & background */
 .team-icon-list:focus {
   background-color: #404bbf;
 }
+.team-soc-link {
+  position: relative;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; /* added*/
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .team-soc-link:hover,
+.team-soc-link:focus { /*added*/
+  background-color: #404bbf;
+}
 
 .our-portfolio {
   padding: 120px 0;
@@ -484,6 +500,13 @@ letter-spacing: 0.02em;
 color: #fff;
 margin-bottom: 16px;
 }
+.social-media {
+  display: flex;
+  gap: 16px; /* Відступи між елементами */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 .footer-icon-list {
   width: 40px;
   height: 40px;
@@ -506,7 +529,7 @@ margin-bottom: 16px;
 .footer-icon-list:focus {
   background-color: #31d0aa;
 }
-.soc-link {
+.footer-soc-link {
 position: relative;
 display: flex;
   align-items: center;
@@ -517,7 +540,8 @@ display: flex;
   border-radius: 50%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.soc-link:hover
-.soc-link:focus { /*added*/
-  background-color: #404bbf;
+.footer-soc-link:hover,
+.footer-soc-link:focus { /*added*/
+  background-color: #31d0aa;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
